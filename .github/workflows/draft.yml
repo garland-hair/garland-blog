@@ -1,0 +1,63 @@
+name: ブログ下書きの自動作成
+
+on:
+  schedule:
+    # 日本時間 月・水・金 の朝7時17分ごろ（GitHubの時刻はUTCなので前日22時台）
+    - cron: "17 22 * * 0,2,4"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run＝保存せず試す / draft＝下書きを作る"
+        type: choice
+        options: [dry-run, draft]
+        default: dry-run
+
+# 同時に2つ動かない（重複投稿防止）
+concurrency:
+  group: garland-blog
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 下書きを作成
+        env:
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "dry-run" ]; then
+            python src/main.py --dry-run
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python src/main.py --force
+          else
+            python src/main.py
+          fi
+
+      - name: プレビューを保存（ドライラン時）
+        if: always() && github.event.inputs.mode == 'dry-run'
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview
+          path: output/preview.html
+          if-no-files-found: ignore
+
+      - name: 台帳・ログ・利用料を記録
+        if: always()
+        run: |
+          git config user.name "garland-blog-bot"
+          git config user.email "garland-blog-bot@users.noreply.github.com"
+          git add data logs
+          git diff --cached --quiet || git commit -m "記録: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

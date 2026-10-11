@@ -1,0 +1,20 @@
+{
+  "_説明": "動作設定。金額はUSD。monthly_budget_usd に達した月は、AIを呼ばずに停止する。",
+  "wp_base": "https://garland-hair.jp/wp-json",
+  "post_type": "news",
+  "taxonomy": "cat_news",
+  "posts_per_run": 1,
+  "model": "claude-sonnet-5-5",
+  "price_per_mtok_input_usd": 2.0,
+  "price_per_mtok_output_usd": 10.0,
+  "max_output_tokens": 6000,
+  "max_attempts": 2,
+  "monthly_budget_usd": 5.0,
+  "body_chars_min": 1000,
+  "body_chars_max": 2000,
+  "photos_per_post": 3,
+  "photo_tag": "掲載OK",
+  "avoid_recent_media": 9,
+  "title_similarity_limit": 0.6,
+  "forbidden_words": ["必ず", "絶対", "100%", "１００％", "No.1", "ナンバーワン", "日本一", "業界初", "最安", "治る", "治ります", "保証"]
+}

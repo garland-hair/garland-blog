@@ -1,0 +1,6 @@
+output/
+drafts/
+preview/
+__pycache__/
+*.pyc
+.env

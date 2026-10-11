@@ -1,0 +1,33 @@
+{
+  "_説明": "店舗情報。ホームページ（https://garland-hair.jp）のSALON LISTから転記した確認済みの情報のみ。AIには書かせず、プログラムがこのファイルから記事に入れる。変更があればここだけ直す。",
+  "brand_line": "表参道・銀座・吉祥寺で、レイヤーカット・顔まわりカット・前髪カットを得意とする美容室Garland",
+  "stores": {
+    "Garland（表参道）": {
+      "area": "表参道",
+      "aliases": ["表参道", "omotesando"],
+      "postal": "〒150-0001",
+      "address": "東京都渋谷区神宮前5-16-3",
+      "tel": "03-5778-3800",
+      "map": "https://g.page/garland-383?share",
+      "reserve": "https://beauty.hotpepper.jp/slnH000185500/?cstt=1"
+    },
+    "Garland GINZA": {
+      "area": "銀座",
+      "aliases": ["銀座", "ginza"],
+      "postal": "〒104-0061",
+      "address": "東京都中央区銀座3-8-10 銀座朝日ビル5階",
+      "tel": "03-6280-6035",
+      "map": "https://goo.gl/maps/qkW23Ec1zS1sgwWk9",
+      "reserve": "https://beauty.hotpepper.jp/slnH000463261/?cstt=2"
+    },
+    "Kiitos by Garland": {
+      "area": "吉祥寺",
+      "aliases": ["吉祥寺", "kiitos", "キートス"],
+      "postal": "〒180-0004",
+      "address": "東京都武蔵野市吉祥寺本町2丁目22-7",
+      "tel": "0422-27-2163",
+      "map": "https://goo.gl/maps/7R1wVtqha96VcyF7A",
+      "reserve": "https://beauty.hotpepper.jp/slnH000260920/?cstt=3"
+    }
+  }
+}
