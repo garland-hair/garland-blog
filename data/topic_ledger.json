@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -94,7 +94,11 @@
       "keyword": "面長 顔まわりレイヤー",
       "title_draft": "面長さんに似合う顔まわりレイヤー｜横の動きでバランスを整えるコツ",
       "intent": "面長を目立たせたくない",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 403,
+      "date": "2026-10-12",
+      "title": "面長さんに似合う顔まわりレイヤー｜横の動きでバランスを整えるコツ",
+      "media": []
     },
     {
       "no": 3,
