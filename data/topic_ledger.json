@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-10-12",
+  "updated": "2026-10-16",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -106,7 +106,11 @@
       "keyword": "吉祥寺 前髪カット",
       "title_draft": "吉祥寺で前髪カット｜似合う前髪の見つけ方と、前髪だけ切りたい時のポイント",
       "intent": "近くで前髪だけ整えたい",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 404,
+      "date": "2026-10-16",
+      "title": "吉祥寺で前髪カット｜似合う前髪の見つけ方と前髪だけ整えたい時のコツ",
+      "media": []
     },
     {
       "no": 4,
