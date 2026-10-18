@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-10-16",
+  "updated": "2026-10-19",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -118,7 +118,11 @@
       "keyword": "ショート 顔まわりレイヤー",
       "title_draft": "ショートヘアでも顔まわりレイヤーはできる？丸く見せないカットのコツ",
       "intent": "ショートで小顔に見せたい",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 408,
+      "date": "2026-10-19",
+      "title": "ショートの顔まわりレイヤーで小顔に見せる！丸く見せないカットのコツ",
+      "media": []
     },
     {
       "no": 5,
