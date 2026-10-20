@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -130,7 +130,11 @@
       "keyword": "40代 顔まわりカット",
       "title_draft": "40代からの顔まわりカット｜大人の小顔見えと扱いやすさを両立",
       "intent": "年齢に合う顔まわりを知りたい",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 409,
+      "date": "2026-10-21",
+      "title": "40代の顔まわりカットで小顔見え｜扱いやすさも意識した長さと前髪の選び方",
+      "media": []
     },
     {
       "no": 6,
