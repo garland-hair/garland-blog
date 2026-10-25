@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-10-21",
+  "updated": "2026-10-26",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -142,7 +142,11 @@
       "keyword": "ボブ 顔まわりレイヤー",
       "title_draft": "ボブ×顔まわりレイヤーで垢抜ける｜重たく見せない似合わせ方",
       "intent": "ボブを軽く見せたい",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 410,
+      "date": "2026-10-26",
+      "title": "ボブ×顔まわりレイヤーで垢抜ける｜重たく見せない似合わせ方",
+      "media": []
     },
     {
       "no": 7,
