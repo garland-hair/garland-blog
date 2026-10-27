@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-10-26",
+  "updated": "2026-10-28",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -154,7 +154,11 @@
       "keyword": "エラ 隠す 髪型",
       "title_draft": "エラやベース型が気になる方へ｜輪郭を柔らかく見せる顔まわりカット",
       "intent": "エラを目立たせたくない",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 411,
+      "date": "2026-10-28",
+      "title": "エラを隠す髪型の選び方｜輪郭を柔らかく見せる顔まわりカットのコツ",
+      "media": []
     },
     {
       "no": 8,
