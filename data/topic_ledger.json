@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-10-28",
+  "updated": "2026-11-02",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -166,7 +166,11 @@
       "keyword": "レイヤーカット ウルフ 違い",
       "title_draft": "レイヤーカットとウルフカットの違いは？似合う人と選び方",
       "intent": "どちらにすべきか迷っている",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 414,
+      "date": "2026-11-02",
+      "title": "レイヤーカットとウルフカットの違いは？似合う人と選び方を銀座の美容室が解説",
+      "media": []
     },
     {
       "no": 9,
