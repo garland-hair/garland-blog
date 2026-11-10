@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-11-09",
+  "updated": "2026-11-11",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -190,7 +190,11 @@
       "keyword": "前髪なし 小顔",
       "title_draft": "前髪なしでも小顔に見える｜かきあげ前髪と顔まわりの作り方",
       "intent": "前髪を作らずに小顔に見せたい",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 429,
+      "date": "2026-11-11",
+      "title": "前髪なしで小顔に見せるコツ｜かきあげ前髪と顔まわりの作り方を解説",
+      "media": []
     },
     {
       "no": 11,
