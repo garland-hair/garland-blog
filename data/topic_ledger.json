@@ -1,6 +1,6 @@
 {
   "_説明": "重複防止用のテーマ台帳。published=公開済み（既存）、planned=案。自動実行時はAPIで最新の記事一覧を取り直し、ここと照合する。",
-  "updated": "2026-11-11",
+  "updated": "2026-11-16",
   "source": "https://garland-hair.jp/wp-json/wp/v2/news + /news/ 一覧（全27本）",
   "saturated_keywords": [
     "顔周りレイヤー",
@@ -202,7 +202,11 @@
       "keyword": "顔まわりカット 頻度",
       "title_draft": "顔まわりカットはどのくらいで切る？伸びてきた時の目安とお直し",
       "intent": "メンテナンスの頻度を知りたい",
-      "status": "planned"
+      "status": "drafted",
+      "post_id": 434,
+      "date": "2026-11-16",
+      "title": "顔まわりカットの頻度はどのくらい？伸びてきた時の目安とお直しのコツ",
+      "media": []
     },
     {
       "no": 12,
